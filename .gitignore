@@ -1,7 +1,18 @@
+<<<<<<< HEAD
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
 /node_modules
+=======
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.pnpm-store/
+
+# testing
+/coverage
+>>>>>>> 1b423fa52c1bac47ed83bd6981620eaad998e727
 
 # next.js
 /.next/
@@ -10,18 +21,41 @@
 # production
 /build
 
+<<<<<<< HEAD
+=======
+# misc
+.DS_Store
+*.pem
+
+>>>>>>> 1b423fa52c1bac47ed83bd6981620eaad998e727
 # debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
+<<<<<<< HEAD
 # env files
 .env*
+=======
+# local env files
+.env*.local
+.env
+>>>>>>> 1b423fa52c1bac47ed83bd6981620eaad998e727
 
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
+<<<<<<< HEAD
 next-env.d.ts
+=======
+next-env.d.ts
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+>>>>>>> 1b423fa52c1bac47ed83bd6981620eaad998e727
